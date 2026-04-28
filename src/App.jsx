@@ -174,7 +174,7 @@ function App() {
           </label>
 
           <button type="submit" className="submit-btn">
-            添加到图表
+            Submit
           </button>
 
           <button 
@@ -183,7 +183,7 @@ function App() {
             style={{ backgroundColor: showDiagonal ? '#ff4d4f' : '#6b6375' }} 
             onClick={() => setShowDiagonal(!showDiagonal)}
           >
-            {showDiagonal ? '隐藏主对角线' : '显示 0-10 对角线'}
+            {showDiagonal ? '隐藏主对角线' : '显示主对角线'}
           </button>
         </form>
 
